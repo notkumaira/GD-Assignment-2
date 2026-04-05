@@ -1,0 +1,19 @@
+using UnityEditor.Rendering.LookDev;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class UIManager : MonoBehaviour
+{
+    public Button StartButton;
+    public GameObject StartPanel;
+    void Start()
+    {
+        StartButton.onClick.AddListener(HidePanel);
+    }
+
+    private void HidePanel()
+    {
+        StartPanel.SetActive(false);
+    }
+
+}
