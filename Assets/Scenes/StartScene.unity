@@ -189,7 +189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start
+  m_Text: 
 --- !u!222 &104867889
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -455,8 +455,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 40, y: -95.07025}
+  m_SizeDelta: {x: 543.1838, y: 220.1405}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &693099304
 MonoBehaviour:
@@ -478,8 +478,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 2433152336268005233, guid: c084a838447a1da4884f4576a88f0cf9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -576,8 +576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -187.37384}
+  m_SizeDelta: {x: 301.9019, y: 116.7476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &717847974
 MonoBehaviour:
@@ -643,8 +643,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -2834816866031520189, guid: 3491c75279498f74c9c0035f1a9d8411, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -699,8 +699,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 2506243963154091273, guid: f2cffd04f995ec844bd04decae4091d1, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -820,8 +820,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -5113469029405553909, guid: 6f66430871440984696cbc00dea6db05, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -855,8 +855,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 444, y: 219}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 441.2, y: 208.7}
+  m_SizeDelta: {x: 156.4029, y: 117.8266}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1326116425
 GameObject:
@@ -891,10 +891,10 @@ RectTransform:
   - {fileID: 717847973}
   m_Father: {fileID: 1981095729}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326116427
 MonoBehaviour:
@@ -916,8 +916,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -515093267153685661, guid: 734b7f4415deab946bab11a5d8360dbe, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1004,7 +1004,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: 
 --- !u!222 &1371605443
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1083,7 +1083,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pause
+  m_Text: 
 --- !u!222 &1460514076
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1190,7 +1190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1981095726
 MonoBehaviour:
   m_ObjectHideFlags: 0
