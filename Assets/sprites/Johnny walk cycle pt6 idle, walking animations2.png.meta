@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 7727bcb6927670341a66dcf3ba7ee51a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6414868678385705173
+    second: Johnny walk cycle pt6 idle, walking animations2_0
+  - first:
+      213: 5894073845375339415
+    second: Johnny walk cycle pt6 idle, walking animations2_1
+  - first:
+      213: -6441935140390163388
+    second: Johnny walk cycle pt6 idle, walking animations2_2
+  - first:
+      213: 8177844591709927861
+    second: Johnny walk cycle pt6 idle, walking animations2_3
+  - first:
+      213: 1566740922526277950
+    second: Johnny walk cycle pt6 idle, walking animations2_4
+  - first:
+      213: -9072645126162535912
+    second: Johnny walk cycle pt6 idle, walking animations2_5
+  - first:
+      213: -9093089436161235060
+    second: Johnny walk cycle pt6 idle, walking animations2_6
+  - first:
+      213: -2739834700923596272
+    second: Johnny walk cycle pt6 idle, walking animations2_7
+  - first:
+      213: 667481726377186105
+    second: Johnny walk cycle pt6 idle, walking animations2_8
+  - first:
+      213: -1281315496199865280
+    second: Johnny walk cycle pt6 idle, walking animations2_9
+  - first:
+      213: -8604550442581969685
+    second: Johnny walk cycle pt6 idle, walking animations2_10
+  - first:
+      213: 349013768643426905
+    second: Johnny walk cycle pt6 idle, walking animations2_11
+  - first:
+      213: 2742428525467805962
+    second: Johnny walk cycle pt6 idle, walking animations2_12
+  - first:
+      213: 8380251455860197351
+    second: Johnny walk cycle pt6 idle, walking animations2_13
+  - first:
+      213: 1342900287026007414
+    second: Johnny walk cycle pt6 idle, walking animations2_14
+  - first:
+      213: -894844434153789854
+    second: Johnny walk cycle pt6 idle, walking animations2_15
+  - first:
+      213: 4127301965505173062
+    second: Johnny walk cycle pt6 idle, walking animations2_16
+  - first:
+      213: 2991611964362390965
+    second: Johnny walk cycle pt6 idle, walking animations2_17
+  - first:
+      213: 8054757024103322172
+    second: Johnny walk cycle pt6 idle, walking animations2_18
+  - first:
+      213: 5140482814886397660
+    second: Johnny walk cycle pt6 idle, walking animations2_19
+  - first:
+      213: -7774101997550956554
+    second: Johnny walk cycle pt6 idle, walking animations2_20
+  - first:
+      213: -6300821375029784309
+    second: Johnny walk cycle pt6 idle, walking animations2_21
+  - first:
+      213: -8975062138556039295
+    second: Johnny walk cycle pt6 idle, walking animations2_22
+  - first:
+      213: 163914957093219211
+    second: Johnny walk cycle pt6 idle, walking animations2_23
+  - first:
+      213: -6304213487813645139
+    second: Johnny walk cycle pt6 idle, walking animations2_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 210
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0a5f75311360950800000000000000
+      internalID: 6414868678385705173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 210
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b84892fe4fbc150800000000000000
+      internalID: 5894073845375339415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 210
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c20f2ee16a996a0800000000000000
+      internalID: -6441935140390163388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 210
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9383df35a8d7170800000000000000
+      internalID: 8177844591709927861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 210
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e312f3e619e2eb510800000000000000
+      internalID: 1566740922526277950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 210
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a27e1a35d771280800000000000000
+      internalID: -9072645126162535912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_6
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 210
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87a0c6c55bdec180800000000000000
+      internalID: -9093089436161235060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 162
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01219241bd62af9d0800000000000000
+      internalID: -2739834700923596272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 161
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933d6caf71f534900800000000000000
+      internalID: 667481726377186105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 162
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cbdcb485ad73ee0800000000000000
+      internalID: -1281315496199865280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 161
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4b8f916fe769880800000000000000
+      internalID: -8604550442581969685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 114
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a36b56c22f7d400800000000000000
+      internalID: 349013768643426905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 114
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a092862c6301f0620800000000000000
+      internalID: 2742428525467805962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 114
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e74ff27c42ac4470800000000000000
+      internalID: 8380251455860197351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_14
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 114
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d84f032b0f2a210800000000000000
+      internalID: 1342900287026007414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 114
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266270d6abfd493f0800000000000000
+      internalID: -894844434153789854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 66
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64615be254f174930800000000000000
+      internalID: 4127301965505173062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 66
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdf0a93b37548920800000000000000
+      internalID: 2991611964362390965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_18
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 66
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32d2c566de38cf60800000000000000
+      internalID: 8054757024103322172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 66
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6cd4b72e9a65740800000000000000
+      internalID: 5140482814886397660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_20
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 66
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff02541c67dc1490800000000000000
+      internalID: -7774101997550956554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 18
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b015924b75cfe88a0800000000000000
+      internalID: -6300821375029784309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 18
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f3f42798c227380800000000000000
+      internalID: -8975062138556039295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 18
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b2ae6f8c7564200800000000000000
+      internalID: 163914957093219211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Johnny walk cycle pt6 idle, walking animations2_24
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 18
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac24a6eb3fe288a0800000000000000
+      internalID: -6304213487813645139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Johnny walk cycle pt6 idle, walking animations2_0: 6414868678385705173
+      Johnny walk cycle pt6 idle, walking animations2_1: 5894073845375339415
+      Johnny walk cycle pt6 idle, walking animations2_10: -8604550442581969685
+      Johnny walk cycle pt6 idle, walking animations2_11: 349013768643426905
+      Johnny walk cycle pt6 idle, walking animations2_12: 2742428525467805962
+      Johnny walk cycle pt6 idle, walking animations2_13: 8380251455860197351
+      Johnny walk cycle pt6 idle, walking animations2_14: 1342900287026007414
+      Johnny walk cycle pt6 idle, walking animations2_15: -894844434153789854
+      Johnny walk cycle pt6 idle, walking animations2_16: 4127301965505173062
+      Johnny walk cycle pt6 idle, walking animations2_17: 2991611964362390965
+      Johnny walk cycle pt6 idle, walking animations2_18: 8054757024103322172
+      Johnny walk cycle pt6 idle, walking animations2_19: 5140482814886397660
+      Johnny walk cycle pt6 idle, walking animations2_2: -6441935140390163388
+      Johnny walk cycle pt6 idle, walking animations2_20: -7774101997550956554
+      Johnny walk cycle pt6 idle, walking animations2_21: -6300821375029784309
+      Johnny walk cycle pt6 idle, walking animations2_22: -8975062138556039295
+      Johnny walk cycle pt6 idle, walking animations2_23: 163914957093219211
+      Johnny walk cycle pt6 idle, walking animations2_24: -6304213487813645139
+      Johnny walk cycle pt6 idle, walking animations2_3: 8177844591709927861
+      Johnny walk cycle pt6 idle, walking animations2_4: 1566740922526277950
+      Johnny walk cycle pt6 idle, walking animations2_5: -9072645126162535912
+      Johnny walk cycle pt6 idle, walking animations2_6: -9093089436161235060
+      Johnny walk cycle pt6 idle, walking animations2_7: -2739834700923596272
+      Johnny walk cycle pt6 idle, walking animations2_8: 667481726377186105
+      Johnny walk cycle pt6 idle, walking animations2_9: -1281315496199865280
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
