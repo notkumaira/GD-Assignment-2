@@ -10,13 +10,30 @@ public class PauseFunction : MonoBehaviour
     public GameObject PausePanel;
     public Button QuitButton;
     public Button TitlePageButton;
+    public GameObject WinPanel;
+    public Button ContinueButton;
     void Start()
     {
         PausePanel.SetActive(false);
+        WinPanel.SetActive(false);
         ResumeButton.onClick.AddListener(HidePausePanel);
         PauseButton.onClick.AddListener(DisplayPausePanel);
         QuitButton.onClick.AddListener(QuitGame);
         TitlePageButton.onClick.AddListener(LoadStartScene);
+        ContinueButton.onClick.AddListener(HideWinPanel);
+        ContinueButton.onClick.AddListener(LoadStartScene);
+    }
+
+    private void HideWinPanel()
+    {
+        WinPanel.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    public void DisplayWinPanel()
+    {
+        WinPanel.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     private void HidePausePanel()
