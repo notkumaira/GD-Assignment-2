@@ -609,7 +609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2433152336268005233, guid: c084a838447a1da4884f4576a88f0cf9, type: 3}
+  m_Sprite: {fileID: -7681417003163397965, guid: 77a31cc47a22f254abd7848146ab5420, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9b08af91ff22f94887a48a295acc97d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  PauseFunction: {fileID: 1794208761}
+  pauseFunction: {fileID: 0}
   slots:
   - {fileID: 35202832}
   - {fileID: 1754472484}
