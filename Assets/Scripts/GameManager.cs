@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 
     public SLots[] slots;
 
+    public bool isLevelOneComplete = false;
+
     void Awake()
     {
         instance = this;
@@ -30,6 +32,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("YOU WIN!");        // show win UI here
         levelOneLogic.DisplayWinPanel();
-        
+        isLevelOneComplete = true;
+
     }
 }
