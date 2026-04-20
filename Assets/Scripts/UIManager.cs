@@ -1,6 +1,7 @@
 using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -13,6 +14,6 @@ public class UIManager : MonoBehaviour
 
     private void HidePanel()
     {
-        StartPanel.SetActive(false);
+        SceneManager.LoadScene("StartScene");
     }
 }

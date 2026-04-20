@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager3 : MonoBehaviour
 {
-    public static GameManager instance;
-    public LevelOneLogic levelOneLogic;
-   
+    public static GameManager3 instance;
+    public LevelThreeLogic levelThreeLogic;
+
 
     public SLots[] slots;
 
@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     void WinGame()
     {
         Debug.Log("YOU WIN!");        // show win UI here
-        levelOneLogic.DisplayWinPanel();
-        
+        levelThreeLogic.DisplayWinPanel();
+
     }
 }
