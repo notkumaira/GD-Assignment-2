@@ -25,18 +25,29 @@ public class LevelUnlocker : MonoBehaviour
         // Check highest progress FIRST
         if (PlayerPrefs.GetInt("LevelThreeUnlocked", 0) == 1)
         {
+            levelOne.interactable = true;
+            levelTwo.interactable = true;
             levelThree.interactable = true;
             DialogueLevel3.SetActive(true);
+            DialogueLevel1.SetActive(false);
+            DialogueLevel2.SetActive(false);
         }
         else if (PlayerPrefs.GetInt("LevelTwoUnlocked", 0) == 1)
         {
+            levelOne.interactable = true;
             levelTwo.interactable = true;
+            levelThree.interactable = false;
             DialogueLevel2.SetActive(true);
+            DialogueLevel1.SetActive(false);
         }
         else
         {
             levelOne.interactable = true;
+            levelTwo.interactable = false;
+            levelThree.interactable = false;    
             DialogueLevel1.SetActive(true);
+            DialogueLevel2.SetActive(false);
+            DialogueLevel3.SetActive(false);
         }
     }
 }

@@ -22,6 +22,9 @@ public class LevelOneLogic : MonoBehaviour
         TitlePageButton.onClick.AddListener(LoadStartScene);
         ContinueButton.onClick.AddListener(HideWinPanel);
         ContinueButton.onClick.AddListener(LoadStartScene);
+        PlayerPrefs.SetInt("LevelTwoUnlocked", 0);
+        PlayerPrefs.SetInt("LevelThreeUnlocked", 0);
+        PlayerPrefs.Save();
     }
 
     private void HideWinPanel()
