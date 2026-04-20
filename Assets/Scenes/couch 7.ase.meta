@@ -129,7 +129,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: couch 7
     originalName: 
-    pivot: {x: 0.15999998, y: -2.7878788}
+    pivot: {x: 0.43750012, y: -1.9999999}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 25
-      height: 33
-    spriteID: a53f5aab0ec542241b777685af51cba3
+      width: 32
+      height: 42
+    spriteID: d568c89bb85e83f41b6610e34e3cc59f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -167,11 +167,11 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 136
-        y: 92
-        width: 25
-        height: 33
-      spriteId: a53f5aab0ec542241b777685af51cba3
+        x: 126
+        y: 84
+        width: 32
+        height: 42
+      spriteId: d568c89bb85e83f41b6610e34e3cc59f
     linkedCells: []
     tileCells: []
     tileSetIndex: 0

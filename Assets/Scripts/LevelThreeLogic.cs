@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class PauseFunction : MonoBehaviour
+public class LevelThreeLogic : MonoBehaviour
 {
     public Button PauseButton;
     public Button ResumeButton;
@@ -11,7 +11,7 @@ public class PauseFunction : MonoBehaviour
     public Button QuitButton;
     public Button TitlePageButton;
     public GameObject WinPanel;
-    public Button ContinueButton;
+    public Button EndButton;
     void Start()
     {
         PausePanel.SetActive(false);
@@ -20,14 +20,7 @@ public class PauseFunction : MonoBehaviour
         PauseButton.onClick.AddListener(DisplayPausePanel);
         QuitButton.onClick.AddListener(QuitGame);
         TitlePageButton.onClick.AddListener(LoadStartScene);
-        ContinueButton.onClick.AddListener(HideWinPanel);
-        ContinueButton.onClick.AddListener(LoadStartScene);
-    }
-
-    private void HideWinPanel()
-    {
-        WinPanel.SetActive(false);
-        Time.timeScale = 1f;
+        EndButton.onClick.AddListener(QuitGame);
     }
 
     public void DisplayWinPanel()
@@ -45,12 +38,12 @@ public class PauseFunction : MonoBehaviour
     private void DisplayPausePanel()
     {
         PausePanel.SetActive(true);
-        Time.timeScale = 0f;    
+        Time.timeScale = 0f;
     }
 
     private void QuitGame()
     {
-        Time.timeScale = 1f; 
+        Time.timeScale = 1f;
         Debug.Log("Game Quit");
         Application.Quit();
     }

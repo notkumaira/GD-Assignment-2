@@ -3,9 +3,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public PauseFunction pauseFunction;
+    public LevelOneLogic levelOneLogic;
+   
 
     public SLots[] slots;
+
+    public bool isLevelOneComplete = false;
 
     void Awake()
     {
@@ -28,6 +31,8 @@ public class GameManager : MonoBehaviour
     void WinGame()
     {
         Debug.Log("YOU WIN!");        // show win UI here
-        pauseFunction.DisplayWinPanel();
+        levelOneLogic.DisplayWinPanel();
+        isLevelOneComplete = true;
+
     }
 }

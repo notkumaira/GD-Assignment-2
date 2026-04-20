@@ -8,6 +8,7 @@ public class SLots : MonoBehaviour, IDropHandler
     public int id;
     public bool isFilled = false;          
     private GameObject currentItem = null;
+
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("OnDrop");
@@ -28,13 +29,24 @@ public class SLots : MonoBehaviour, IDropHandler
                 item.currentSlot = this; // track slot in item
 
                 // Check win condition
-                GameManager.instance.CheckWin();
+                TryCheckWin();
             }
             else
             {
                 item.ResetPosition();
             }
         }
+    }
+    void TryCheckWin()
+    {
+        if (GameManager.instance != null)
+            GameManager.instance.CheckWin();
+
+        if (GameManager2.instance != null)
+            GameManager2.instance.CheckWin();
+
+        if (GameManager3.instance != null)
+            GameManager3.instance.CheckWin();
     }
 
 }
