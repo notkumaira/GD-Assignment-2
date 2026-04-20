@@ -42,7 +42,16 @@ public class PlayerMovementNEW : MonoBehaviour
                 // tell the Blend Tree which direction to play
                 anim.SetFloat("moveX", movement.x);
                 anim.SetFloat("moveY", movement.y);
-            }
+            
+            
+            
+                if (keyboard.dKey.isPressed) anim.Play("right");
+                else if (keyboard.aKey.isPressed) anim.Play("left");
+                else if (keyboard.wKey.isPressed) anim.Play("up");
+                else if (keyboard.sKey.isPressed) anim.Play("Down");
+                else anim.Play("idle");
+           }
+            
         }
     }
 }
