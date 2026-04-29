@@ -103,8 +103,8 @@ TextureImporter:
       name: PlayButton_0
       rect:
         serializedVersion: 2
-        x: 149
-        y: 142
+        x: 52
+        y: 53
         width: 151
         height: 151
       alignment: 0
