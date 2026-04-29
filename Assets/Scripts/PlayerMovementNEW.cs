@@ -40,8 +40,8 @@ public class PlayerMovementNEW : MonoBehaviour
                 anim.SetBool("moving", isMoving);
 
                 // tell the Blend Tree which direction to play
-                anim.SetFloat("X", movement.x);
-                anim.SetFloat("Y", movement.y);
+                anim.SetFloat("moveX", movement.x);
+                anim.SetFloat("moveY", movement.y);
             }
         }
     }
