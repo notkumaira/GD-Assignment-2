@@ -171,6 +171,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 8
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &33851559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -821,6 +823,7 @@ RectTransform:
   - {fileID: 554089312}
   - {fileID: 123814592}
   - {fileID: 580721112}
+  - {fileID: 1807097708}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -880,6 +883,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 3
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &375047773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2001,6 +2006,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 2
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1072949575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2091,6 +2098,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 6
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1110245040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2389,6 +2398,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 4
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1302620017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2835,6 +2846,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 5
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1647678057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3049,11 +3062,11 @@ Transform:
   m_GameObject: {fileID: 1807097706}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.022277832, z: 0}
+  m_LocalPosition: {x: -960, y: -539.9777, z: 0}
   m_LocalScale: {x: 1.0603337, y: 1.1817276, z: 1.0603337}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 362426749}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1819607197
 GameObject:
@@ -3107,6 +3120,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 7
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1819607200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3197,6 +3212,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 1
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &2015122029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3244,5 +3261,4 @@ SceneRoots:
   - {fileID: 1127030741}
   - {fileID: 1163790338}
   - {fileID: 840302512}
-  - {fileID: 1807097708}
   - {fileID: 362426749}
