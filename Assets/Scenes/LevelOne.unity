@@ -261,6 +261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 3
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 362426748}
 --- !u!114 &123814594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -634,10 +635,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -758,10 +759,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -778,7 +779,7 @@ Canvas:
   m_GameObject: {fileID: 362426745}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -804,14 +805,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1608670913}
-  - {fileID: 916166781}
-  - {fileID: 584254267}
-  - {fileID: 791337179}
-  - {fileID: 1697854987}
-  - {fileID: 554089312}
-  - {fileID: 123814592}
-  - {fileID: 580721112}
   - {fileID: 2015122027}
   - {fileID: 1819607198}
   - {fileID: 33851557}
@@ -820,6 +813,14 @@ RectTransform:
   - {fileID: 1302620015}
   - {fileID: 375047771}
   - {fileID: 1072949573}
+  - {fileID: 1608670913}
+  - {fileID: 916166781}
+  - {fileID: 584254267}
+  - {fileID: 791337179}
+  - {fileID: 1697854987}
+  - {fileID: 554089312}
+  - {fileID: 123814592}
+  - {fileID: 580721112}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -969,6 +970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 4
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 362426748}
 --- !u!114 &554089314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1059,6 +1061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 2
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 362426748}
 --- !u!114 &580721114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1149,6 +1152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 8
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 362426748}
 --- !u!114 &584254269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1359,6 +1363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 6
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 362426748}
 --- !u!114 &791337181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1504,6 +1509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 7
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 362426748}
 --- !u!114 &916166783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2738,6 +2744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 1
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 362426748}
 --- !u!114 &1608670915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2918,6 +2925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 5
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 362426748}
 --- !u!114 &1697854989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3040,9 +3048,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807097706}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0223, z: 0}
-  m_LocalScale: {x: 1.1861485, y: 1.3219465, z: 1.1861485}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.022277832, z: 0}
+  m_LocalScale: {x: 1.0603337, y: 1.1817276, z: 1.0603337}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

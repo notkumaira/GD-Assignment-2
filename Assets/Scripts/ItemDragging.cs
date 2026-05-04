@@ -7,13 +7,12 @@ public class ItemDragging : MonoBehaviour,IBeginDragHandler, IEndDragHandler, IP
 {
     private RectTransform rectTrans;
     public int id;  
-    private Vector2 originalPos;
     public SLots currentSlot = null;
+    public Canvas Canvas;
 
     void Start()
     {
         rectTrans = GetComponent<RectTransform>();
-        originalPos = rectTrans.anchoredPosition;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -28,20 +27,11 @@ public class ItemDragging : MonoBehaviour,IBeginDragHandler, IEndDragHandler, IP
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("End Drag");
-        if (currentSlot == null)
-        {
-            ResetPosition();
-        }
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         Debug.Log("Dragging");
-        rectTrans.anchoredPosition += eventData.delta;
-    }
-
-    public void ResetPosition()
-    {
-        rectTrans.anchoredPosition = originalPos;
+        rectTrans.anchoredPosition += eventData.delta / Canvas.scaleFactor;
     }
 }

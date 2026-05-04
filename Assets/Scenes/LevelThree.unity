@@ -171,6 +171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 3
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1854387987}
 --- !u!114 &44766563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,6 +262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 5
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1854387987}
 --- !u!114 &276754129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -696,6 +698,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 1
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &637336033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,6 +790,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 7
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &646860567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1128,6 +1134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 4
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1854387987}
 --- !u!114 &826304226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1218,6 +1225,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 2
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &896897599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1341,8 +1350,8 @@ Transform:
   m_GameObject: {fileID: 920078952}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.64, y: 0, z: 0}
-  m_LocalScale: {x: 1.102494, y: 1.102494, z: 1.102494}
+  m_LocalPosition: {x: -2.44, y: 0, z: 0}
+  m_LocalScale: {x: 0.97132975, y: 0.97132975, z: 0.97132975}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1608,6 +1617,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 6
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1064553870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1698,6 +1709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 2
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1854387987}
 --- !u!114 &1146941377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1788,6 +1800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 7
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1854387987}
 --- !u!114 &1179040244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2063,6 +2076,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 4
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1317008469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2153,6 +2168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 5
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1389562691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2820,8 +2837,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 513, y: -340}
-  m_SizeDelta: {x: 76.0107, y: 180.9137}
+  m_AnchoredPosition: {x: 499.87024, y: -340}
+  m_SizeDelta: {x: 62.389, y: 180.9137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1698996122
 MonoBehaviour:
@@ -2837,6 +2854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 6
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1854387987}
 --- !u!114 &1698996123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3003,10 +3021,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3144,10 +3162,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3164,7 +3182,7 @@ Canvas:
   m_GameObject: {fileID: 1854387984}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -3190,13 +3208,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2004166973}
-  - {fileID: 44766561}
-  - {fileID: 1698996121}
-  - {fileID: 1179040242}
-  - {fileID: 826304224}
-  - {fileID: 276754127}
-  - {fileID: 1146941375}
   - {fileID: 637336031}
   - {fileID: 1966102575}
   - {fileID: 1064553868}
@@ -3204,6 +3215,13 @@ RectTransform:
   - {fileID: 1317008467}
   - {fileID: 1389562689}
   - {fileID: 896897597}
+  - {fileID: 2004166973}
+  - {fileID: 44766561}
+  - {fileID: 1698996121}
+  - {fileID: 1179040242}
+  - {fileID: 826304224}
+  - {fileID: 276754127}
+  - {fileID: 1146941375}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3263,6 +3281,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SLots
   id: 3
   isFilled: 0
+  Thud: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1966102577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3353,6 +3373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 1
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1854387987}
 --- !u!114 &2004166975
 MonoBehaviour:
   m_ObjectHideFlags: 0
