@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b342f4ff031276b4b9fa6a2f37a230f3
+guid: dd0b802862b80b243ade6f67663990d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1781058356909251321
-    second: RetryButton_0
+      213: -5261992394389525642
+    second: DialogueBox_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RetryButton_0
+      name: DialogueBox_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 158
-        width: 351
-        height: 150
+        x: 36
+        y: 56
+        width: 607
+        height: 408
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fa11df932797b810800000000000000
-      internalID: 1781058356909251321
+      spriteID: 67bea99ebc5a9f6b0800000000000000
+      internalID: -5261992394389525642
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RetryButton_0: 1781058356909251321
+      DialogueBox_0: -5261992394389525642
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
