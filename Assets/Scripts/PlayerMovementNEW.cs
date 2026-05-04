@@ -3,9 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovementNEW : MonoBehaviour
 {
-    [SerializeField] private float speed = 5f;
-    private Animator anim;
-    private SpriteRenderer sprite; 
+    [SerializeField] public float speed = 5f;
+    public Animator anim;
+    public SpriteRenderer sprite; 
 
     void Start()
     {
@@ -31,18 +31,27 @@ public class PlayerMovementNEW : MonoBehaviour
 
             
             
-            // 4. Update Animator Parameters
+            // Animator Parameters
             if (anim != null)
             {
                 bool isMoving = movement.magnitude > 0;
                 
                 // tells the Animator to switch between Idle and Move states
-                anim.SetBool("moving", isMoving);
+                anim.SetBool("isMoving", isMoving);
 
                 // tell the Blend Tree which direction to play
                 anim.SetFloat("moveX", movement.x);
                 anim.SetFloat("moveY", movement.y);
-            }
+            
+            
+            
+                if (keyboard.dKey.isPressed) anim.Play("right");
+                else if (keyboard.aKey.isPressed) anim.Play("left");
+                else if (keyboard.wKey.isPressed) anim.Play("up");
+                else if (keyboard.sKey.isPressed) anim.Play("Down");
+                else anim.Play("idle");
+           }
+            
         }
     }
 }
