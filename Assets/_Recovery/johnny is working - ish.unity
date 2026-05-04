@@ -274,7 +274,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 45df15bb14a41df48bfc6bd55dcdedab, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -338,6 +338,30 @@ PrefabInstance:
     - target: {fileID: 2771423705743261163, guid: 5bccc62a1d317a64786a2b6edf40f0b9, type: 3}
       propertyPath: m_Name
       value: Johnny
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771423705743261163, guid: 5bccc62a1d317a64786a2b6edf40f0b9, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771423705743261163, guid: 5bccc62a1d317a64786a2b6edf40f0b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663714575057467545, guid: 5bccc62a1d317a64786a2b6edf40f0b9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.19812328
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663714575057467545, guid: 5bccc62a1d317a64786a2b6edf40f0b9, type: 3}
+      propertyPath: m_Size.y
+      value: 0.31211275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663714575057467545, guid: 5bccc62a1d317a64786a2b6edf40f0b9, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0043468326
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663714575057467545, guid: 5bccc62a1d317a64786a2b6edf40f0b9, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.003943622
       objectReference: {fileID: 0}
     - target: {fileID: 6676589851371257411, guid: 5bccc62a1d317a64786a2b6edf40f0b9, type: 3}
       propertyPath: m_FlipX
