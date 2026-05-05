@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: aeb4b77592f0741418816fc82814d580
+guid: 87479a88eb2856a45bd4051313a8f7b5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6514729380719953619
-    second: house after level 2 complete_0
+      213: 2059376448644814700
+    second: house layout begnning_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: house after level 2 complete_0
+      name: house layout begnning_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d29f26e05280795a0800000000000000
-      internalID: -6514729380719953619
+      spriteID: c67974018ff549c10800000000000000
+      internalID: 2059376448644814700
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      house after level 2 complete_0: -6514729380719953619
+      house layout begnning_0: 2059376448644814700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

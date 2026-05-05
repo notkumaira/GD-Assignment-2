@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a8ce41c921125b34582685e289406455
+guid: 599ffbf6caace4242978340f5de35e79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6442917276362135174
-    second: base house1_0
+      213: -5973445891211257505
+    second: house layout (after lvl 1 complete)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -38,7 +38,6 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -101,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base house1_0
+      name: house layout (after lvl 1 complete)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 686dac67027d96950800000000000000
-      internalID: 6442917276362135174
+      spriteID: f5916515c9e0a1da0800000000000000
+      internalID: -5973445891211257505
       vertices: []
       indices: 
       edges: []
@@ -136,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      base house1_0: 6442917276362135174
+      house layout (after lvl 1 complete)_0: -5973445891211257505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
