@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.EventSystems; 
@@ -14,26 +14,33 @@ public class SLots : MonoBehaviour, IDropHandler
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("OnDrop");
+
         if (eventData.pointerDrag != null)
         {
             ItemDragging item = eventData.pointerDrag.GetComponent<ItemDragging>();
 
+            // CORRECT SLOT
             if (item.id == id && !isFilled)
             {
-                // Snap into place
                 RectTransform itemRect = item.GetComponent<RectTransform>();
                 itemRect.anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
 
-                // Mark slot as filled
                 isFilled = true;
-                Debug.Log ("Correct Item Dropped!");
+                Debug.Log("Correct Item Dropped!");
                 audioSource.PlayOneShot(Thud);
+
                 currentItem = item.gameObject;
+                item.currentSlot = this;
 
-                item.currentSlot = this; // track slot in item
-
-                // Check win condition
                 TryCheckWin();
+            }
+            else
+            {
+                // WRONG SLOT → reset
+                RectTransform itemRect = item.GetComponent<RectTransform>();
+                itemRect.anchoredPosition = item.GetComponent<ItemDragging>().GetOriginalPosition();
+
+                item.currentSlot = null;
             }
         }
     }

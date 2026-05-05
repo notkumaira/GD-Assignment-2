@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/HouseLVL1.unity.meta
 guid: c5c37611bc5c53442a938db1e16da834
+========
+guid: a5b78581a2700914abb91056439e305d
+>>>>>>>> main:Assets/_Recovery/0 (2).unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
