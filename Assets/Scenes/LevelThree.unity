@@ -700,7 +700,7 @@ MonoBehaviour:
   id: 1
   isFilled: 0
   Thud: {fileID: 8300000, guid: 12691dccb94f34a4c84f579046601902, type: 3}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 876171668}
 --- !u!114 &637336033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -792,7 +792,7 @@ MonoBehaviour:
   id: 7
   isFilled: 0
   Thud: {fileID: 8300000, guid: 12691dccb94f34a4c84f579046601902, type: 3}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 876171668}
 --- !u!114 &646860567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1368,7 +1368,7 @@ MonoBehaviour:
   id: 2
   isFilled: 0
   Thud: {fileID: 8300000, guid: 12691dccb94f34a4c84f579046601902, type: 3}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 876171668}
 --- !u!114 &896897599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1760,7 +1760,7 @@ MonoBehaviour:
   id: 6
   isFilled: 0
   Thud: {fileID: 8300000, guid: 12691dccb94f34a4c84f579046601902, type: 3}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 876171668}
 --- !u!114 &1064553870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2352,7 +2352,7 @@ MonoBehaviour:
   id: 4
   isFilled: 0
   Thud: {fileID: 8300000, guid: 12691dccb94f34a4c84f579046601902, type: 3}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 876171668}
 --- !u!114 &1317008469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2444,7 +2444,7 @@ MonoBehaviour:
   id: 5
   isFilled: 0
   Thud: {fileID: 8300000, guid: 12691dccb94f34a4c84f579046601902, type: 3}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 876171668}
 --- !u!114 &1389562691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2646,7 +2646,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: cf9e81920217f7c4abdf56cb5810997d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.02
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3401,6 +3401,7 @@ MonoBehaviour:
   TitlePageButton: {fileID: 1051033675}
   WinPanel: {fileID: 612750859}
   EndButton: {fileID: 824947015}
+  RetryButton: {fileID: 1639695865}
 --- !u!1 &1854387984
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,13 +3497,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 876171667}
-  - {fileID: 637336031}
-  - {fileID: 1966102575}
-  - {fileID: 1064553868}
-  - {fileID: 646860565}
-  - {fileID: 1317008467}
-  - {fileID: 1389562689}
-  - {fileID: 896897597}
   - {fileID: 2004166973}
   - {fileID: 44766561}
   - {fileID: 1698996121}
@@ -3510,6 +3504,13 @@ RectTransform:
   - {fileID: 826304224}
   - {fileID: 276754127}
   - {fileID: 1146941375}
+  - {fileID: 637336031}
+  - {fileID: 1966102575}
+  - {fileID: 1064553868}
+  - {fileID: 646860565}
+  - {fileID: 1317008467}
+  - {fileID: 1389562689}
+  - {fileID: 896897597}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3570,7 +3571,7 @@ MonoBehaviour:
   id: 3
   isFilled: 0
   Thud: {fileID: 8300000, guid: 12691dccb94f34a4c84f579046601902, type: 3}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 876171668}
 --- !u!114 &1966102577
 MonoBehaviour:
   m_ObjectHideFlags: 0

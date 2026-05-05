@@ -19,7 +19,7 @@ public class LevelOneLogic : MonoBehaviour
         ResumeButton.onClick.AddListener(HidePausePanel);
         PauseButton.onClick.AddListener(DisplayPausePanel);
         QuitButton.onClick.AddListener(QuitGame);
-        TitlePageButton.onClick.AddListener(LoadStartScene);
+        TitlePageButton.onClick.AddListener(LoadTitleScene);
         ContinueButton.onClick.AddListener(HideWinPanel);
         ContinueButton.onClick.AddListener(LoadStartScene);
         PlayerPrefs.SetInt("LevelTwoUnlocked", 0);
@@ -64,5 +64,11 @@ public class LevelOneLogic : MonoBehaviour
         PlayerPrefs.SetInt("LevelTwoUnlocked", 1);
         PlayerPrefs.Save();
         SceneManager.LoadScene("StartScene");
+    }
+
+    private void LoadTitleScene()
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("OpenScene");
     }
 }

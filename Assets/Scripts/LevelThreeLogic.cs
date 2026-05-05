@@ -12,6 +12,7 @@ public class LevelThreeLogic : MonoBehaviour
     public Button TitlePageButton;
     public GameObject WinPanel;
     public Button EndButton;
+    public Button RetryButton;
     void Start()
     {
         PausePanel.SetActive(false);
@@ -21,6 +22,7 @@ public class LevelThreeLogic : MonoBehaviour
         QuitButton.onClick.AddListener(QuitGame);
         TitlePageButton.onClick.AddListener(LoadStartScene);
         EndButton.onClick.AddListener(QuitGame);
+        RetryButton.onClick.AddListener(RetryLevel);
     }
 
     public void DisplayWinPanel()
@@ -51,6 +53,12 @@ public class LevelThreeLogic : MonoBehaviour
     private void LoadStartScene()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene("OpenScene");
+    }
+
+    private void RetryLevel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("LevelThree");
     }
 }

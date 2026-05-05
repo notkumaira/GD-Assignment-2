@@ -1,37 +1,39 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;   
 using UnityEngine.EventSystems;
 
-public class ItemDragging : MonoBehaviour,IBeginDragHandler, IEndDragHandler, IPointerDownHandler, IDragHandler
+public class ItemDragging : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    private RectTransform rectTrans;
-    public int id;  
-    public SLots currentSlot = null;
-    public Canvas Canvas;
+    public int id;
+    public SLots currentSlot;
 
-    void Start()
+    private RectTransform rectTransform;
+    private Vector2 originalPosition;
+
+    void Awake()
     {
-        rectTrans = GetComponent<RectTransform>();
+        rectTransform = GetComponent<RectTransform>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("Begin Drag");
-    }
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        Debug.Log("Click"); 
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        Debug.Log("End Drag");
+        originalPosition = rectTransform.anchoredPosition;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("Dragging");
-        rectTrans.anchoredPosition += eventData.delta / Canvas.scaleFactor;
+        rectTransform.anchoredPosition += eventData.delta;
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        // If not placed in a valid slot ? reset position
+        if (currentSlot == null)
+        {
+            rectTransform.anchoredPosition = originalPosition;
+        }
+    }
+    public Vector2 GetOriginalPosition()
+    {
+        return originalPosition;
     }
 }
