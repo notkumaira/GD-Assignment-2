@@ -21,7 +21,7 @@ public class LevelTwoLogic : MonoBehaviour
         QuitButton.onClick.AddListener(QuitGame);
         TitlePageButton.onClick.AddListener(LoadTitleScene);
         ContinueButton.onClick.AddListener(HideWinPanel);
-        ContinueButton.onClick.AddListener(LoadStartScene);
+        ContinueButton.onClick.AddListener(LoadHouseLVL2);
     }
 
     private void HideWinPanel()
@@ -55,12 +55,12 @@ public class LevelTwoLogic : MonoBehaviour
         Application.Quit();
     }
 
-    private void LoadStartScene()
+    private void LoadHouseLVL2()
     {
         Time.timeScale = 1f;
         PlayerPrefs.SetInt("LevelThreeUnlocked", 1);
         PlayerPrefs.Save();
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene("HouseLVL2");
     }
 
     private void LoadTitleScene()

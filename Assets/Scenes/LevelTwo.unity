@@ -392,6 +392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 2
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1711805298}
 --- !u!114 &128750324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1219,7 +1220,7 @@ SpriteRenderer:
   m_Size: {x: 2.8, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!4 &532258869
 Transform:
@@ -1691,6 +1692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 7
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1711805298}
 --- !u!114 &966996202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2085,6 +2087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 4
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1711805298}
 --- !u!114 &1109205589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2267,6 +2270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 5
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1711805298}
 --- !u!114 &1177727246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2541,6 +2545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 6
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1711805298}
 --- !u!114 &1354881923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2763,6 +2768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 9
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1711805298}
 --- !u!114 &1598629257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2853,6 +2859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 3
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1711805298}
 --- !u!114 &1645811457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3156,6 +3163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 1
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1711805298}
 --- !u!114 &1766603636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3371,6 +3379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemDragging
   id: 8
   currentSlot: {fileID: 0}
+  Canvas: {fileID: 1711805298}
 --- !u!114 &1995327666
 MonoBehaviour:
   m_ObjectHideFlags: 0

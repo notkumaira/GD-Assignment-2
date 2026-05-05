@@ -21,7 +21,7 @@ public class LevelOneLogic : MonoBehaviour
         QuitButton.onClick.AddListener(QuitGame);
         TitlePageButton.onClick.AddListener(LoadTitleScene);
         ContinueButton.onClick.AddListener(HideWinPanel);
-        ContinueButton.onClick.AddListener(LoadStartScene);
+        ContinueButton.onClick.AddListener(LoadHouseLVL1);
         PlayerPrefs.SetInt("LevelTwoUnlocked", 0);
         PlayerPrefs.SetInt("LevelThreeUnlocked", 0);
         PlayerPrefs.Save();
@@ -58,12 +58,12 @@ public class LevelOneLogic : MonoBehaviour
         Application.Quit();
     }
 
-    private void LoadStartScene()
+    private void LoadHouseLVL1()
     {
         Time.timeScale = 1f;
         PlayerPrefs.SetInt("LevelTwoUnlocked", 1);
         PlayerPrefs.Save();
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene("HouseLVL1");
     }
 
     private void LoadTitleScene()

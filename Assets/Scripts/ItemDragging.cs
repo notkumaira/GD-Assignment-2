@@ -8,6 +8,7 @@ public class ItemDragging : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
 
     private RectTransform rectTransform;
     private Vector2 originalPosition;
+    public Canvas Canvas;
 
     void Awake()
     {
@@ -21,7 +22,7 @@ public class ItemDragging : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
 
     public void OnDrag(PointerEventData eventData)
     {
-        rectTransform.anchoredPosition += eventData.delta;
+        rectTransform.anchoredPosition += eventData.delta / Canvas.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)

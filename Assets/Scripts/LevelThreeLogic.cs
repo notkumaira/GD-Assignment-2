@@ -20,7 +20,7 @@ public class LevelThreeLogic : MonoBehaviour
         ResumeButton.onClick.AddListener(HidePausePanel);
         PauseButton.onClick.AddListener(DisplayPausePanel);
         QuitButton.onClick.AddListener(QuitGame);
-        TitlePageButton.onClick.AddListener(LoadStartScene);
+        TitlePageButton.onClick.AddListener(LoadHouseLVL2);
         EndButton.onClick.AddListener(QuitGame);
         RetryButton.onClick.AddListener(RetryLevel);
     }
@@ -50,7 +50,7 @@ public class LevelThreeLogic : MonoBehaviour
         Application.Quit();
     }
 
-    private void LoadStartScene()
+    private void LoadHouseLVL2()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("OpenScene");
