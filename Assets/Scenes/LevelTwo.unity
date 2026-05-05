@@ -413,7 +413,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6087812657113078889, guid: 54647ef8ef7590944899c5ac4a42ef46, type: 3}
+  m_Sprite: {fileID: -8287545128533316313, guid: 593f594acb7ff1a47a37a49fea953be3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1145,7 +1145,7 @@ SpriteRenderer:
   m_Size: {x: 2.8, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!4 &532258869
 Transform:
@@ -1638,7 +1638,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -413306356234801004, guid: 9e07e4a849ce9a740b3f7026bc0ade9d, type: 3}
+  m_Sprite: {fileID: -3181545726020012387, guid: 1ece4115fb20d024bb422299f80c4857, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2033,7 +2033,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -9159004186384973418, guid: 3714a9e10fbf4e346b09d5c17f37fdca, type: 3}
+  m_Sprite: {fileID: -5169117172950210895, guid: ece64502afa2bc44e8ac7463e9f2730d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2216,7 +2216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8944168291054865460, guid: 628e7bb5a68f1fe4aa2e6e9b63fbf7da, type: 3}
+  m_Sprite: {fileID: -6292503079351691391, guid: da494d4e3400856499d6e1da3eb4488c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2491,7 +2491,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6124377532568014236, guid: 04764dacd21158c4cbb5d672ab5d9864, type: 3}
+  m_Sprite: {fileID: -7268386440255265805, guid: d19a62e070a2d284a91e0b1f2faeac84, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2714,7 +2714,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4958607812774218083, guid: 25e8ccfc45f223c43817c37a557f8c8f, type: 3}
+  m_Sprite: {fileID: -6456038118114500726, guid: 961ac8340d348d645b23ab6e53662366, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2805,7 +2805,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6170978516823517551, guid: eaeef42732376cd4ca118865f8600ebd, type: 3}
+  m_Sprite: {fileID: -8709042166098195953, guid: aaee706de9e80484fb5b0e4249ced0ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3108,7 +3108,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2943549485808132422, guid: e7eff9735a2a21f4e9f4f053a2080e2f, type: 3}
+  m_Sprite: {fileID: 298736332822470472, guid: f922eb26849441340b2fa86806ec5f46, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3324,7 +3324,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7859315702500502125, guid: 0cf9e9d98bb440c4d8c43575dcdc4270, type: 3}
+  m_Sprite: {fileID: 6647407684377587390, guid: c3d2e64ee52f98b4c9dcf5110e2de03b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3342,63 +3342,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995327663}
   m_CullTransparentMesh: 1
---- !u!1001 &2039953962
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -2253911629886400664, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_Name
-      value: Kitchen (level 2) start
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 835.7237
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 572.3637
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: -8435245712485981826, guid: e67754fb689fc3b4086ae5a7f32882d4, type: 3}
 --- !u!1 &2111452624
 GameObject:
   m_ObjectHideFlags: 0
@@ -3633,5 +3576,4 @@ SceneRoots:
   - {fileID: 532258869}
   - {fileID: 1711805299}
   - {fileID: 467958177}
-  - {fileID: 2039953962}
   - {fileID: 629414831}
