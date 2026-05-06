@@ -169,7 +169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05253018d04cdf643b4bee5e46ad19d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SLots
-  dragParent: {fileID: 0}
   id: 8
   isFilled: 0
   Thud: {fileID: 8300000, guid: f2dfc207db4487e45add0915d4da8173, type: 3}
@@ -265,7 +264,6 @@ MonoBehaviour:
   id: 3
   currentSlot: {fileID: 0}
   Canvas: {fileID: 362426748}
-  emptyParent: {fileID: 0}
 --- !u!114 &123814594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,7 +880,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05253018d04cdf643b4bee5e46ad19d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SLots
-  dragParent: {fileID: 0}
   id: 3
   isFilled: 0
   Thud: {fileID: 8300000, guid: f2dfc207db4487e45add0915d4da8173, type: 3}
@@ -978,7 +975,6 @@ MonoBehaviour:
   id: 4
   currentSlot: {fileID: 0}
   Canvas: {fileID: 362426748}
-  emptyParent: {fileID: 0}
 --- !u!114 &554089314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1070,7 +1066,6 @@ MonoBehaviour:
   id: 2
   currentSlot: {fileID: 0}
   Canvas: {fileID: 362426748}
-  emptyParent: {fileID: 0}
 --- !u!114 &580721114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1162,7 +1157,6 @@ MonoBehaviour:
   id: 8
   currentSlot: {fileID: 0}
   Canvas: {fileID: 362426748}
-  emptyParent: {fileID: 0}
 --- !u!114 &584254269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1386,7 +1380,6 @@ MonoBehaviour:
   id: 6
   currentSlot: {fileID: 0}
   Canvas: {fileID: 362426748}
-  emptyParent: {fileID: 0}
 --- !u!114 &791337181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1533,7 +1526,6 @@ MonoBehaviour:
   id: 7
   currentSlot: {fileID: 0}
   Canvas: {fileID: 362426748}
-  emptyParent: {fileID: 0}
 --- !u!114 &916166783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1747,8 +1739,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_Resource: {fileID: 8300000, guid: f2dfc207db4487e45add0915d4da8173, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2152,7 +2144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05253018d04cdf643b4bee5e46ad19d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SLots
-  dragParent: {fileID: 0}
   id: 2
   isFilled: 0
   Thud: {fileID: 8300000, guid: f2dfc207db4487e45add0915d4da8173, type: 3}
@@ -2245,7 +2236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05253018d04cdf643b4bee5e46ad19d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SLots
-  dragParent: {fileID: 0}
   id: 6
   isFilled: 0
   Thud: {fileID: 8300000, guid: f2dfc207db4487e45add0915d4da8173, type: 3}
@@ -2546,7 +2536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05253018d04cdf643b4bee5e46ad19d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SLots
-  dragParent: {fileID: 0}
   id: 4
   isFilled: 0
   Thud: {fileID: 8300000, guid: f2dfc207db4487e45add0915d4da8173, type: 3}
@@ -2907,7 +2896,6 @@ MonoBehaviour:
   id: 1
   currentSlot: {fileID: 0}
   Canvas: {fileID: 362426748}
-  emptyParent: {fileID: 0}
 --- !u!114 &1608670915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2996,7 +2984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05253018d04cdf643b4bee5e46ad19d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SLots
-  dragParent: {fileID: 0}
   id: 5
   isFilled: 0
   Thud: {fileID: 8300000, guid: f2dfc207db4487e45add0915d4da8173, type: 3}
@@ -3092,7 +3079,6 @@ MonoBehaviour:
   id: 5
   currentSlot: {fileID: 0}
   Canvas: {fileID: 362426748}
-  emptyParent: {fileID: 0}
 --- !u!114 &1697854989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3272,7 +3258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05253018d04cdf643b4bee5e46ad19d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SLots
-  dragParent: {fileID: 0}
   id: 7
   isFilled: 0
   Thud: {fileID: 8300000, guid: f2dfc207db4487e45add0915d4da8173, type: 3}
@@ -3365,7 +3350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05253018d04cdf643b4bee5e46ad19d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SLots
-  dragParent: {fileID: 0}
   id: 1
   isFilled: 0
   Thud: {fileID: 8300000, guid: f2dfc207db4487e45add0915d4da8173, type: 3}
