@@ -12,6 +12,7 @@ public class LevelTwoLogic : MonoBehaviour
     public Button TitlePageButton;
     public GameObject WinPanel;
     public Button ContinueButton;
+    public Slider VolumeSlider;
     void Start()
     {
         PausePanel.SetActive(false);
@@ -22,6 +23,10 @@ public class LevelTwoLogic : MonoBehaviour
         TitlePageButton.onClick.AddListener(LoadTitleScene);
         ContinueButton.onClick.AddListener(HideWinPanel);
         ContinueButton.onClick.AddListener(LoadHouseLVL2);
+        float savedVolume = PlayerPrefs.GetFloat("GameVolume", 1f);
+        AudioListener.volume = savedVolume;
+        VolumeSlider.value = savedVolume;
+        VolumeSlider.onValueChanged.AddListener(ChangeVolume);
     }
 
     private void HideWinPanel()
@@ -67,5 +72,12 @@ public class LevelTwoLogic : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("OpenScene");
+    }
+    public void ChangeVolume(float volume)
+    {
+        AudioListener.volume = volume;
+
+        PlayerPrefs.SetFloat("GameVolume", volume);
+        PlayerPrefs.Save();
     }
 }

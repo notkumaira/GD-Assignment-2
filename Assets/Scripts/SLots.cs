@@ -9,6 +9,7 @@ public class SLots : MonoBehaviour, IDropHandler
     public bool isFilled = false;          
     private GameObject currentItem = null;
     public AudioClip Thud;
+    public AudioClip wrong;
     public AudioSource audioSource;
 
     public void OnDrop(PointerEventData eventData)
@@ -36,13 +37,45 @@ public class SLots : MonoBehaviour, IDropHandler
             }
             else
             {
+
                 // WRONG SLOT → reset
                 RectTransform itemRect = item.GetComponent<RectTransform>();
+
+                StartCoroutine(
+    ShakeAndReturn(
+        itemRect,
+        item.GetComponent<ItemDragging>().GetOriginalPosition()
+    )
+);
+                audioSource.PlayOneShot(wrong);
                 itemRect.anchoredPosition = item.GetComponent<ItemDragging>().GetOriginalPosition();
 
                 item.currentSlot = null;
             }
         }
+    }
+
+    IEnumerator ShakeAndReturn(RectTransform itemRect, Vector2 originalPos)
+    {
+        float duration = 0.2f;
+        float magnitude = 4f;
+
+        Vector2 startPos = itemRect.anchoredPosition;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            float offsetX = Random.Range(-1f, 1f) * magnitude;
+            float offsetY = Random.Range(-1f, 1f) * magnitude;
+
+            itemRect.anchoredPosition = startPos + new Vector2(offsetX, offsetY);
+
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        // Return to original position
+        itemRect.anchoredPosition = originalPos;
     }
     void TryCheckWin()
     {
