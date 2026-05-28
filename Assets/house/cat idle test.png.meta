@@ -1,40 +1,43 @@
 fileFormatVersion: 2
-guid: f31efb559316c9b44aa7f3a2c85cb67d
+guid: 96d7a11f66939464db6b671d4814f77c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7184741833693506802
-    second: boxes in living room_0
+      213: 3322189757982743223
+    second: cat idle test_0
   - first:
-      213: -1894833756929962637
-    second: boxes in living room_1
+      213: -1533356433972980922
+    second: cat idle test_1
   - first:
-      213: -6196264982336708399
-    second: boxes in living room_2
+      213: 7783183790858053384
+    second: cat idle test_2
   - first:
-      213: 7218779630312888537
-    second: boxes in living room_3
+      213: 1849913610188830931
+    second: cat idle test_3
   - first:
-      213: -4141745344256841533
-    second: boxes in living room_4
+      213: -1967357124018351245
+    second: cat idle test_4
   - first:
-      213: 3566888417161570693
-    second: boxes in living room_5
+      213: 7742994592044143489
+    second: cat idle test_5
   - first:
-      213: -2755531648440500701
-    second: boxes in living room_6
+      213: 3838540737758124014
+    second: cat idle test_6
   - first:
-      213: -1662810905071410691
-    second: boxes in living room_7
+      213: 5185256456753538575
+    second: cat idle test_7
   - first:
-      213: 7752132765235981772
-    second: boxes in living room_8
+      213: 9179937039089300877
+    second: cat idle test_8
   - first:
-      213: -5132800148440219832
-    second: boxes in living room_9
+      213: 2858474298647828558
+    second: cat idle test_9
   - first:
-      213: 5561345614285184758
-    second: boxes in living room_10
+      213: 8223405792096094757
+    second: cat idle test_10
+  - first:
+      213: 8841417846205167443
+    second: cat idle test_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boxes in living room_0
+      name: cat idle test_0
       rect:
         serializedVersion: 2
-        x: 434
-        y: 217
-        width: 41
-        height: 167
+        x: 0
+        y: 23
+        width: 22
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,196 +148,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2fca030a1a455b360800000000000000
-      internalID: 7184741833693506802
+      spriteID: 7ba9001bbf9ca1e20800000000000000
+      internalID: 3322189757982743223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxes in living room_1
+      name: cat idle test_1
       rect:
         serializedVersion: 2
-        x: 489
-        y: 196
+        x: 23
+        y: 24
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6431bf6827c68bae0800000000000000
+      internalID: -1533356433972980922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat idle test_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 24
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8072ca3bb6c630c60800000000000000
+      internalID: 7783183790858053384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat idle test_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 25
         width: 21
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 20
+      alignment: 9
+      pivot: {x: 0.59094167, y: 0.44031945}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37d45c1ccb234b5e0800000000000000
-      internalID: -1894833756929962637
+      spriteID: 3d8377090a63ca910800000000000000
+      internalID: 1849913610188830931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxes in living room_2
+      name: cat idle test_4
       rect:
         serializedVersion: 2
-        x: 470
-        y: 172
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d0e0a9e3d1720aa0800000000000000
-      internalID: -6196264982336708399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_3
-      rect:
-        serializedVersion: 2
-        x: 485
-        y: 146
-        width: 30
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d810a8b3d14e2460800000000000000
-      internalID: 7218779630312888537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_4
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 39
-        width: 78
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c86175ad809586c0800000000000000
-      internalID: -4141745344256841533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_5
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 51
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 589ee520e12208130800000000000000
-      internalID: 3566888417161570693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_6
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 0
-        width: 91
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32e7b5fa09262c9d0800000000000000
-      internalID: -2755531648440500701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_7
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 0
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df1a292ba428ce8e0800000000000000
-      internalID: -1662810905071410691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_8
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 0
-        width: 23
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ccdae8b6dab159b60800000000000000
-      internalID: 7752132765235981772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_9
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 0
+        x: 88
+        y: 25
         width: 21
-        height: 19
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,30 +236,206 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84ff521b571a4c8b0800000000000000
-      internalID: -5132800148440219832
+      spriteID: 3735d848e1b82b4e0800000000000000
+      internalID: -1967357124018351245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxes in living room_10
+      name: cat idle test_5
       rect:
         serializedVersion: 2
-        x: 389
+        x: 111
+        y: 25
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183df8cae84a47b60800000000000000
+      internalID: 7742994592044143489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat idle test_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee750f9a67c354530800000000000000
+      internalID: 3838540737758124014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat idle test_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f066816564bb5f740800000000000000
+      internalID: 5185256456753538575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat idle test_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d857e538910b56f70800000000000000
+      internalID: 9179937039089300877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat idle test_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 2
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48dc72da375ba720800000000000000
+      internalID: 2858474298647828558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat idle test_10
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a07c99ff76f1270800000000000000
+      internalID: 8223405792096094757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat idle test_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357bbd1ffa603ba70800000000000000
+      internalID: 8841417846205167443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat idle test_12
+      rect:
+        serializedVersion: 2
+        x: 1
         y: 1
-        width: 30
-        height: 17
+        width: 127
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6fe15a4fe5edd2d40800000000000000
-      internalID: 5561345614285184758
+      spriteID: 1bcd08c11227a8c4da3acd4d8695230c
+      internalID: 691007461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat idle test_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 132
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b212a9a8d31a2fb40b53e0601a40fa14
+      internalID: -1912315981
       vertices: []
       indices: 
       edges: []
@@ -375,7 +444,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6cbe2de173c509b48b54fda57db7e6f9
+    spriteID: fce369deefd10a34ca68a05af072ff6b
     internalID: 0
     vertices: []
     indices: 
@@ -383,21 +452,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      boxes in living room_0: 7184741833693506802
-      boxes in living room_1: -1894833756929962637
-      boxes in living room_10: 5561345614285184758
-      boxes in living room_2: -6196264982336708399
-      boxes in living room_3: 7218779630312888537
-      boxes in living room_4: -4141745344256841533
-      boxes in living room_5: 3566888417161570693
-      boxes in living room_6: -2755531648440500701
-      boxes in living room_7: -1662810905071410691
-      boxes in living room_8: 7752132765235981772
-      boxes in living room_9: -5132800148440219832
+      cat idle test_0: 3322189757982743223
+      cat idle test_1: -1533356433972980922
+      cat idle test_10: 8223405792096094757
+      cat idle test_11: 8841417846205167443
+      cat idle test_12: 691007461
+      cat idle test_13: -1912315981
+      cat idle test_2: 7783183790858053384
+      cat idle test_3: 1849913610188830931
+      cat idle test_4: -1967357124018351245
+      cat idle test_5: 7742994592044143489
+      cat idle test_6: 3838540737758124014
+      cat idle test_7: 5185256456753538575
+      cat idle test_8: 9179937039089300877
+      cat idle test_9: 2858474298647828558
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: f31efb559316c9b44aa7f3a2c85cb67d
+guid: 4ab94bcb2fa7bb64a819c99847311110
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7184741833693506802
-    second: boxes in living room_0
+      213: 1935172655586625089
+    second: cat licking paw_0
   - first:
-      213: -1894833756929962637
-    second: boxes in living room_1
+      213: -8148878911395221940
+    second: cat licking paw_1
   - first:
-      213: -6196264982336708399
-    second: boxes in living room_2
+      213: -5560939399638301391
+    second: cat licking paw_2
   - first:
-      213: 7218779630312888537
-    second: boxes in living room_3
+      213: -4525840431333805079
+    second: cat licking paw_3
   - first:
-      213: -4141745344256841533
-    second: boxes in living room_4
+      213: 8313135555666315625
+    second: cat licking paw_4
   - first:
-      213: 3566888417161570693
-    second: boxes in living room_5
+      213: 168006801593633880
+    second: cat licking paw_5
   - first:
-      213: -2755531648440500701
-    second: boxes in living room_6
+      213: -6158920167676885580
+    second: cat licking paw_6
   - first:
-      213: -1662810905071410691
-    second: boxes in living room_7
+      213: -8027130840255888041
+    second: cat licking paw_7
   - first:
-      213: 7752132765235981772
-    second: boxes in living room_8
+      213: -3098168670994861324
+    second: cat licking paw_8
   - first:
-      213: -5132800148440219832
-    second: boxes in living room_9
+      213: -6310457037004532793
+    second: cat licking paw_9
   - first:
-      213: 5561345614285184758
-    second: boxes in living room_10
+      213: -962132509177665777
+    second: cat licking paw_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,243 +130,243 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boxes in living room_0
+      name: cat licking paw_0
       rect:
         serializedVersion: 2
-        x: 434
-        y: 217
-        width: 41
-        height: 167
+        x: 0
+        y: 22
+        width: 20
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2fca030a1a455b360800000000000000
-      internalID: 7184741833693506802
+      spriteID: 1464a4bf64d1bda10800000000000000
+      internalID: 1935172655586625089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxes in living room_1
+      name: cat licking paw_1
       rect:
         serializedVersion: 2
-        x: 489
-        y: 196
-        width: 21
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37d45c1ccb234b5e0800000000000000
-      internalID: -1894833756929962637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_2
-      rect:
-        serializedVersion: 2
-        x: 470
-        y: 172
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d0e0a9e3d1720aa0800000000000000
-      internalID: -6196264982336708399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_3
-      rect:
-        serializedVersion: 2
-        x: 485
-        y: 146
-        width: 30
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d810a8b3d14e2460800000000000000
-      internalID: 7218779630312888537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_4
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 39
-        width: 78
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c86175ad809586c0800000000000000
-      internalID: -4141745344256841533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_5
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 51
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 589ee520e12208130800000000000000
-      internalID: 3566888417161570693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boxes in living room_6
-      rect:
-        serializedVersion: 2
-        x: 432
+        x: 20
         y: 0
-        width: 91
-        height: 101
+        width: 20
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32e7b5fa09262c9d0800000000000000
-      internalID: -2755531648440500701
+      spriteID: c4ead900ecd59ee80800000000000000
+      internalID: -8148878911395221940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxes in living room_7
+      name: cat licking paw_2
       rect:
         serializedVersion: 2
-        x: 202
+        x: 21
+        y: 22
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135c513441393d2b0800000000000000
+      internalID: -5560939399638301391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat licking paw_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 22
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e37f3c4b1cf031c0800000000000000
+      internalID: -4525840431333805079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat licking paw_4
+      rect:
+        serializedVersion: 2
+        x: 40
         y: 0
-        width: 9
-        height: 10
+        width: 20
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df1a292ba428ce8e0800000000000000
-      internalID: -1662810905071410691
+      spriteID: 96909253eb03e5370800000000000000
+      internalID: 8313135555666315625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxes in living room_8
+      name: cat licking paw_5
       rect:
         serializedVersion: 2
-        x: 239
+        x: 60
+        y: 22
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c86d0cb41e45200800000000000000
+      internalID: 168006801593633880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat licking paw_6
+      rect:
+        serializedVersion: 2
+        x: 60
         y: 0
-        width: 23
-        height: 29
+        width: 20
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ccdae8b6dab159b60800000000000000
-      internalID: 7752132765235981772
+      spriteID: 4b541a52dbe178aa0800000000000000
+      internalID: -6158920167676885580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxes in living room_9
+      name: cat licking paw_7
       rect:
         serializedVersion: 2
-        x: 265
+        x: 80
+        y: 22
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75507f4c707e99090800000000000000
+      internalID: -8027130840255888041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat licking paw_8
+      rect:
+        serializedVersion: 2
+        x: 81
         y: 0
-        width: 21
-        height: 19
+        width: 20
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84ff521b571a4c8b0800000000000000
-      internalID: -5132800148440219832
+      spriteID: 4f27b1f22081105d0800000000000000
+      internalID: -3098168670994861324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boxes in living room_10
+      name: cat licking paw_9
       rect:
         serializedVersion: 2
-        x: 389
-        y: 1
-        width: 30
-        height: 17
+        x: 99
+        y: 22
+        width: 20
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6fe15a4fe5edd2d40800000000000000
-      internalID: 5561345614285184758
+      spriteID: 7c31bf252c0cc68a0800000000000000
+      internalID: -6310457037004532793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat licking paw_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f072c9b9491d5a2f0800000000000000
+      internalID: -962132509177665777
       vertices: []
       indices: 
       edges: []
@@ -375,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6cbe2de173c509b48b54fda57db7e6f9
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -383,21 +383,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      boxes in living room_0: 7184741833693506802
-      boxes in living room_1: -1894833756929962637
-      boxes in living room_10: 5561345614285184758
-      boxes in living room_2: -6196264982336708399
-      boxes in living room_3: 7218779630312888537
-      boxes in living room_4: -4141745344256841533
-      boxes in living room_5: 3566888417161570693
-      boxes in living room_6: -2755531648440500701
-      boxes in living room_7: -1662810905071410691
-      boxes in living room_8: 7752132765235981772
-      boxes in living room_9: -5132800148440219832
+      cat licking paw_0: 1935172655586625089
+      cat licking paw_1: -8148878911395221940
+      cat licking paw_10: -962132509177665777
+      cat licking paw_2: -5560939399638301391
+      cat licking paw_3: -4525840431333805079
+      cat licking paw_4: 8313135555666315625
+      cat licking paw_5: 168006801593633880
+      cat licking paw_6: -6158920167676885580
+      cat licking paw_7: -8027130840255888041
+      cat licking paw_8: -3098168670994861324
+      cat licking paw_9: -6310457037004532793
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

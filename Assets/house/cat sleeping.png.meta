@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 7280adc85aab9594494c6e778c3f7834
+guid: e1e13a714e0484243b4aef575e066a96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4463401601986950689
-    second: couches in the house_0
+      213: -8107425445349498156
+    second: cat sleeping_0
   - first:
-      213: -8602433807405562704
-    second: couches in the house_1
+      213: 1043325400245497748
+    second: cat sleeping_1
   - first:
-      213: -8998525846458103521
-    second: couches in the house_2
+      213: -2223603188663792283
+    second: cat sleeping_2
   - first:
-      213: 7995705670867735296
-    second: couches in the house_3
+      213: -4889173780853106282
+    second: cat sleeping_3
   - first:
-      213: 7053644860036765069
-    second: couches in the house_4
+      213: -6425137297442992543
+    second: cat sleeping_4
   - first:
-      213: 6256945421939133342
-    second: couches in the house_5
+      213: -144785706544404649
+    second: cat sleeping_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,133 +115,143 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: couches in the house_0
+      name: cat sleeping_0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 161
-        width: 125
-        height: 113
+        x: 48
+        y: 32
+        width: 11
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fd988af14efce02c0800000000000000
-      internalID: -4463401601986950689
+      spriteID: 4d2eafe2383ac7f80800000000000000
+      internalID: -8107425445349498156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: couches in the house_1
+      name: cat sleeping_1
       rect:
         serializedVersion: 2
-        x: 246
-        y: 232
-        width: 36
-        height: 41
+        x: 60
+        y: 31
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0b4c7c1a7040e9880800000000000000
-      internalID: -8602433807405562704
+      spriteID: 49f66ca7ce2aa7e00800000000000000
+      internalID: 1043325400245497748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: couches in the house_2
+      name: cat sleeping_2
       rect:
         serializedVersion: 2
-        x: 290
-        y: 229
-        width: 98
-        height: 46
+        x: 0
+        y: 0
+        width: 58
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: -29, y: -12.5}
+        - {x: 29, y: -12.5}
+        - {x: 29, y: 1.5}
+        - {x: 14, y: 12.5}
+        - {x: -29, y: 12.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f1981bb3b60de1380800000000000000
-      internalID: -8998525846458103521
+      spriteID: 56dc44a5eac2421e0800000000000000
+      internalID: -2223603188663792283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: couches in the house_3
+      name: cat sleeping_3
       rect:
         serializedVersion: 2
-        x: 491
-        y: 180
-        width: 37
-        height: 44
+        x: 48
+        y: 22
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 003d5a0d1f376fe60800000000000000
-      internalID: 7995705670867735296
+      spriteID: 699d81ba95a262cb0800000000000000
+      internalID: -4889173780853106282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: couches in the house_4
+      name: cat sleeping_4
       rect:
         serializedVersion: 2
-        x: 482
-        y: 92
-        width: 44
-        height: 80
+        x: 58
+        y: 23
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d85504ed0a493e160800000000000000
-      internalID: 7053644860036765069
+      spriteID: 16e0cc87ba355d6a0800000000000000
+      internalID: -6425137297442992543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: couches in the house_5
+      name: cat sleeping_5
       rect:
         serializedVersion: 2
-        x: 491
-        y: 43
-        width: 37
-        height: 44
+        x: 60
+        y: 0
+        width: 58
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: -28, y: -12.5}
+        - {x: 28, y: -12.5}
+        - {x: 28, y: 12.5}
+        - {x: -8, y: 12.5}
+        - {x: -28, y: 5.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9b40b5e5b225d650800000000000000
-      internalID: 6256945421939133342
+      spriteID: 757edd0ca2e9dfdf0800000000000000
+      internalID: -144785706544404649
       vertices: []
       indices: 
       edges: []
@@ -250,7 +260,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3833f736f07993d45ba4e937684dd530
+    spriteID: 1914a856afd564e4c8bcd4c702ca3dc0
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +270,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      couches in the house_0: -4463401601986950689
-      couches in the house_1: -8602433807405562704
-      couches in the house_2: -8998525846458103521
-      couches in the house_3: 7995705670867735296
-      couches in the house_4: 7053644860036765069
-      couches in the house_5: 6256945421939133342
+      cat sleeping_0: -8107425445349498156
+      cat sleeping_1: 1043325400245497748
+      cat sleeping_2: -2223603188663792283
+      cat sleeping_3: -4889173780853106282
+      cat sleeping_4: -6425137297442992543
+      cat sleeping_5: -144785706544404649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

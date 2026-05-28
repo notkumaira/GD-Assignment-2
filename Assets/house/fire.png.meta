@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 7280adc85aab9594494c6e778c3f7834
+guid: b8175c4f6b282cb47aab5ef58785a0a7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4463401601986950689
-    second: couches in the house_0
+      213: 8334651344603559088
+    second: fire_0
   - first:
-      213: -8602433807405562704
-    second: couches in the house_1
+      213: 9204931480678746970
+    second: fire_1
   - first:
-      213: -8998525846458103521
-    second: couches in the house_2
+      213: -8359625512513901107
+    second: fire_2
   - first:
-      213: 7995705670867735296
-    second: couches in the house_3
+      213: 7804807344221744696
+    second: fire_3
   - first:
-      213: 7053644860036765069
-    second: couches in the house_4
+      213: -9112466456087325836
+    second: fire_4
   - first:
-      213: 6256945421939133342
-    second: couches in the house_5
+      213: 173077104931781641
+    second: fire_5
+  - first:
+      213: -4815649327972379770
+    second: fire_6
+  - first:
+      213: 1034857412894652757
+    second: fire_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: couches in the house_0
+      name: fire_0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 161
-        width: 125
-        height: 113
+        x: 0
+        y: 36
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd988af14efce02c0800000000000000
-      internalID: -4463401601986950689
+      spriteID: 0b4b3d13d31aaa370800000000000000
+      internalID: 8334651344603559088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: couches in the house_1
+      name: fire_1
       rect:
         serializedVersion: 2
-        x: 246
-        y: 232
-        width: 36
-        height: 41
+        x: 0
+        y: 19
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b4c7c1a7040e9880800000000000000
-      internalID: -8602433807405562704
+      spriteID: a5bcaaf696c7ebf70800000000000000
+      internalID: 9204931480678746970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: couches in the house_2
+      name: fire_2
       rect:
         serializedVersion: 2
-        x: 290
-        y: 229
-        width: 98
-        height: 46
+        x: 16
+        y: 36
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1981bb3b60de1380800000000000000
-      internalID: -8998525846458103521
+      spriteID: dcde05733e4acfb80800000000000000
+      internalID: -8359625512513901107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: couches in the house_3
+      name: fire_3
       rect:
         serializedVersion: 2
-        x: 491
-        y: 180
-        width: 37
-        height: 44
+        x: 16
+        y: 19
+        width: 15
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 003d5a0d1f376fe60800000000000000
-      internalID: 7995705670867735296
+      spriteID: 83e62bc8dee305c60800000000000000
+      internalID: 7804807344221744696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: couches in the house_4
+      name: fire_4
       rect:
         serializedVersion: 2
-        x: 482
-        y: 92
-        width: 44
-        height: 80
+        x: 32
+        y: 36
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d85504ed0a493e160800000000000000
-      internalID: 7053644860036765069
+      spriteID: 4739041c9040a8180800000000000000
+      internalID: -9112466456087325836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: couches in the house_5
+      name: fire_5
       rect:
         serializedVersion: 2
-        x: 491
-        y: 43
-        width: 37
-        height: 44
+        x: 32
+        y: 19
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +246,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9b40b5e5b225d650800000000000000
-      internalID: 6256945421939133342
+      spriteID: 90c363eb5b4e66200800000000000000
+      internalID: 173077104931781641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 19
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6839b5b53706b2db0800000000000000
+      internalID: -4815649327972379770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 35
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559f3c8855d8c5e00800000000000000
+      internalID: 1034857412894652757
       vertices: []
       indices: 
       edges: []
@@ -250,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3833f736f07993d45ba4e937684dd530
+    spriteID: 53941d52706955a4bbeac5982836a37a
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      couches in the house_0: -4463401601986950689
-      couches in the house_1: -8602433807405562704
-      couches in the house_2: -8998525846458103521
-      couches in the house_3: 7995705670867735296
-      couches in the house_4: 7053644860036765069
-      couches in the house_5: 6256945421939133342
+      fire_0: 8334651344603559088
+      fire_1: 9204931480678746970
+      fire_2: -8359625512513901107
+      fire_3: 7804807344221744696
+      fire_4: -9112466456087325836
+      fire_5: 173077104931781641
+      fire_6: -4815649327972379770
+      fire_7: 1034857412894652757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
