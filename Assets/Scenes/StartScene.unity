@@ -201,9 +201,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1955497539}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 1202993264}
+        m_TargetAssemblyTypeName: LevelChooser, Assembly-CSharp
+        m_MethodName: LoadLevelTwo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -213,9 +213,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1202993264}
-        m_TargetAssemblyTypeName: LevelChooser, Assembly-CSharp
-        m_MethodName: LoadLevelTwo
+      - m_Target: {fileID: 1955497539}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -345,9 +345,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1955497539}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 1202993264}
+        m_TargetAssemblyTypeName: LevelChooser, Assembly-CSharp
+        m_MethodName: LoadLevelOne
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -357,9 +357,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1202993264}
-        m_TargetAssemblyTypeName: LevelChooser, Assembly-CSharp
-        m_MethodName: LoadLevelOne
+      - m_Target: {fileID: 1955497539}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -441,7 +441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 91, y: -37}
+  m_AnchoredPosition: {x: 91, y: -45}
   m_SizeDelta: {x: 1416.0864, y: 237.1904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &444619998
@@ -996,8 +996,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 517, y: -301}
-  m_SizeDelta: {x: 395.8642, y: 174.8997}
+  m_AnchoredPosition: {x: 476, y: -296}
+  m_SizeDelta: {x: 455.425, y: 196.5582}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &756720621
 MonoBehaviour:
@@ -1043,10 +1043,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1955497539}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
+      - m_Target: {fileID: 1429311692}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1055,10 +1055,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1429311692}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1955497539}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1401,9 +1401,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1955497539}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 1202993264}
+        m_TargetAssemblyTypeName: LevelChooser, Assembly-CSharp
+        m_MethodName: LoadLevelThree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1413,9 +1413,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1202993264}
-        m_TargetAssemblyTypeName: LevelChooser, Assembly-CSharp
-        m_MethodName: LoadLevelThree
+      - m_Target: {fileID: 1955497539}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1601,8 +1601,7 @@ MonoBehaviour:
   levelTwo: {fileID: 302520377}
   levelThree: {fileID: 928715272}
   DialogueLevel1: {fileID: 1429311692}
-  DialogueLevel2: {fileID: 1309652841}
-  DialogueLevel3: {fileID: 800590543}
+  DialogueContinue: {fileID: 0}
 --- !u!1 &1309652841
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,7 +1713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 12.1317, y: -37.2617}
+  m_AnchoredPosition: {x: 12.131714, y: -37.261703}
   m_SizeDelta: {x: 24.2634, y: 74.5234}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1368563331
@@ -1932,8 +1931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 499, y: -312}
-  m_SizeDelta: {x: 395.8642, y: 174.8997}
+  m_AnchoredPosition: {x: 473.28052, y: -298.46347}
+  m_SizeDelta: {x: 447.3032, y: 201.9728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1607650097
 MonoBehaviour:
@@ -2425,8 +2424,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.288}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 553.0818, y: -309.7061}
-  m_SizeDelta: {x: 358.7363, y: 161.6729}
+  m_AnchoredPosition: {x: 480, y: -295}
+  m_SizeDelta: {x: 461.7895, y: 196.3504}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2044531206
 MonoBehaviour:
@@ -2472,10 +2471,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1955497539}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
+      - m_Target: {fileID: 800590543}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2484,10 +2483,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 800590543}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1955497539}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
