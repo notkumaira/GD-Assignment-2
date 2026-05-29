@@ -20,4 +20,6 @@ public class LevelChooser : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("LevelThree");
     }
+   
+    
 }

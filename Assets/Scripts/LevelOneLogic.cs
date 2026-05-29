@@ -12,6 +12,7 @@ public class LevelOneLogic : MonoBehaviour
     public Button TitlePageButton;
     public GameObject WinPanel;
     public Button ContinueButton;
+    public Slider VolumeSlider;
     void Start()
     {
         PausePanel.SetActive(false);
@@ -19,11 +20,15 @@ public class LevelOneLogic : MonoBehaviour
         ResumeButton.onClick.AddListener(HidePausePanel);
         PauseButton.onClick.AddListener(DisplayPausePanel);
         QuitButton.onClick.AddListener(QuitGame);
-        TitlePageButton.onClick.AddListener(LoadStartScene);
+        TitlePageButton.onClick.AddListener(LoadTitleScene);
         ContinueButton.onClick.AddListener(HideWinPanel);
-        ContinueButton.onClick.AddListener(LoadStartScene);
+        ContinueButton.onClick.AddListener(LoadHouseLVL1);
         PlayerPrefs.SetInt("LevelTwoUnlocked", 0);
         PlayerPrefs.SetInt("LevelThreeUnlocked", 0);
+        float savedVolume = PlayerPrefs.GetFloat("GameVolume", 1f);
+        AudioListener.volume = savedVolume;
+        VolumeSlider.value = savedVolume;
+        VolumeSlider.onValueChanged.AddListener(ChangeVolume);
         PlayerPrefs.Save();
     }
 
@@ -58,11 +63,24 @@ public class LevelOneLogic : MonoBehaviour
         Application.Quit();
     }
 
-    private void LoadStartScene()
+    private void LoadHouseLVL1()
     {
         Time.timeScale = 1f;
         PlayerPrefs.SetInt("LevelTwoUnlocked", 1);
         PlayerPrefs.Save();
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene("HouseLVL1");
+    }
+
+    private void LoadTitleScene()
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("OpenScene");
+    }
+    public void ChangeVolume(float volume)
+    {
+        AudioListener.volume = volume;
+
+        PlayerPrefs.SetFloat("GameVolume", volume);
+        PlayerPrefs.Save();
     }
 }

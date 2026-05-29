@@ -23,6 +23,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LevelTwotest.unity
     guid: 9dfc31981d64f1c45b9dde73b960b8af
+  - enabled: 1
+    path: Assets/Scenes/HouseScene.unity
+    guid: 5344056a1de71a849ba2846fd47049f4
+  - enabled: 1
+    path: Assets/Scenes/HouseLVL1.unity
+    guid: c5c37611bc5c53442a938db1e16da834
+  - enabled: 1
+    path: Assets/Scenes/HouseLVL2.unity
+    guid: a43deb280f64f6740851980630d30fa2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

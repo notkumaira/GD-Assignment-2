@@ -12,6 +12,8 @@ public class LevelThreeLogic : MonoBehaviour
     public Button TitlePageButton;
     public GameObject WinPanel;
     public Button EndButton;
+    public Button RetryButton;
+    public Slider VolumeSlider;
     void Start()
     {
         PausePanel.SetActive(false);
@@ -19,8 +21,13 @@ public class LevelThreeLogic : MonoBehaviour
         ResumeButton.onClick.AddListener(HidePausePanel);
         PauseButton.onClick.AddListener(DisplayPausePanel);
         QuitButton.onClick.AddListener(QuitGame);
-        TitlePageButton.onClick.AddListener(LoadStartScene);
+        TitlePageButton.onClick.AddListener(LoadHouseLVL2);
         EndButton.onClick.AddListener(QuitGame);
+        RetryButton.onClick.AddListener(RetryLevel);
+        float savedVolume = PlayerPrefs.GetFloat("GameVolume", 1f);
+        AudioListener.volume = savedVolume;
+        VolumeSlider.value = savedVolume;
+        VolumeSlider.onValueChanged.AddListener(ChangeVolume);
     }
 
     public void DisplayWinPanel()
@@ -48,9 +55,22 @@ public class LevelThreeLogic : MonoBehaviour
         Application.Quit();
     }
 
-    private void LoadStartScene()
+    private void LoadHouseLVL2()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene("OpenScene");
+    }
+
+    private void RetryLevel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("LevelThree");
+    }
+    public void ChangeVolume(float volume)
+    {
+        AudioListener.volume = volume;
+
+        PlayerPrefs.SetFloat("GameVolume", volume);
+        PlayerPrefs.Save();
     }
 }

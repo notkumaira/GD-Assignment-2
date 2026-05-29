@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovementNEW : MonoBehaviour
 {
-    [SerializeField] public float speed = 5f;
+    [SerializeField] public float speed = 3f;
     public Animator anim;
     public SpriteRenderer sprite; 
 
@@ -40,8 +40,8 @@ public class PlayerMovementNEW : MonoBehaviour
                 anim.SetBool("isMoving", isMoving);
 
                 // tell the Blend Tree which direction to play
-                anim.SetFloat("moveX", movement.x);
-                anim.SetFloat("moveY", movement.y);
+                anim.SetFloat("X", movement.x);
+                anim.SetFloat("Y", movement.y);
             
             
             
