@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
 
     private void HidePanel()
     {
-        StartPanel.SetActive(false);
+        
         SceneManager.LoadScene("HouseScene");
     }
 }

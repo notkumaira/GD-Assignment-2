@@ -21,7 +21,7 @@ public class LevelTwoLogic : MonoBehaviour
         PauseButton.onClick.AddListener(DisplayPausePanel);
         QuitButton.onClick.AddListener(QuitGame);
         TitlePageButton.onClick.AddListener(LoadTitleScene);
-        ContinueButton.onClick.AddListener(HideWinPanel);
+        
         ContinueButton.onClick.AddListener(LoadHouseLVL2);
         float savedVolume = PlayerPrefs.GetFloat("GameVolume", 1f);
         AudioListener.volume = savedVolume;
@@ -29,11 +29,7 @@ public class LevelTwoLogic : MonoBehaviour
         VolumeSlider.onValueChanged.AddListener(ChangeVolume);
     }
 
-    private void HideWinPanel()
-    {
-        WinPanel.SetActive(false);
-        Time.timeScale = 1f;
-    }
+    
 
     public void DisplayWinPanel()
     {
