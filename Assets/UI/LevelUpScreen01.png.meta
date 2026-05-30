@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f2cffd04f995ec844bd04decae4091d1
+guid: fd77989954c00fe4c839ae80b3871e4b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2506243963154091273
-    second: PauseScreen_0
+      213: 6839162708461623400
+    second: LevelUpScreen01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PauseScreen_0
+      name: LevelUpScreen01_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90d44481b97f7c220800000000000000
-      internalID: 2506243963154091273
+      spriteID: 86814f67f3699ee50800000000000000
+      internalID: 6839162708461623400
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PauseScreen_0: 2506243963154091273
+      LevelUpScreen01_0: 6839162708461623400
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a2abd551d0c7cce49a83046cdd5eca9e
+guid: 55edd1915e458cf4b8e17c314742d308
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8499772632097366168
-    second: LevelUpScreen_0
+      213: 5378352612430853706
+    second: knob_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LevelUpScreen_0
+      name: knob_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 28
+        y: 36
+        width: 139
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86fdf3823ddba0a80800000000000000
-      internalID: -8499772632097366168
+      spriteID: a463cbc843fb3aa40800000000000000
+      internalID: 5378352612430853706
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      LevelUpScreen_0: -8499772632097366168
+      knob_0: 5378352612430853706
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
