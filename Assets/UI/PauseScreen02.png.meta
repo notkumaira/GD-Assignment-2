@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a9d93c53a75105147a77bbf457000b26
+guid: 12658566404b5e44b93b41ebeac3929b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5695789029098323824
-    second: DialogueBoxPanel_0
+      213: 3127146605947733780
+    second: PauseScreen02_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DialogueBoxPanel_0
+      name: PauseScreen02_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 090070d3e0e74f0b0800000000000000
-      internalID: -5695789029098323824
+      spriteID: 4174510154bd56b20800000000000000
+      internalID: 3127146605947733780
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DialogueBoxPanel_0: -5695789029098323824
+      PauseScreen02_0: 3127146605947733780
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
