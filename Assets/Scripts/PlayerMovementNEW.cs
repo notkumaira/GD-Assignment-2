@@ -6,11 +6,13 @@ public class PlayerMovementNEW : MonoBehaviour
     [SerializeField] public float speed = 3f;
     public Animator anim;
     public SpriteRenderer sprite; 
+    private AudioSource walking;
 
     void Start()
     {
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        walking = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -35,7 +37,16 @@ public class PlayerMovementNEW : MonoBehaviour
             if (anim != null)
             {
                 bool isMoving = movement.magnitude > 0;
-                
+               
+                if (isMoving)
+                {
+                if (!walking.isPlaying)
+                     walking.Play();
+                }
+                else
+                {
+                  walking.Stop();
+                }
                 // tells the Animator to switch between Idle and Move states
                 anim.SetBool("isMoving", isMoving);
 

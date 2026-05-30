@@ -20,6 +20,7 @@ public class LevelUnlocker2 : MonoBehaviour
         DialogueContinue.onClick.AddListener(LVL2Continue);
         
         DialogueLevel2.SetActive(true);
+        Time.timeScale = 0f;
 
     
     }
@@ -31,6 +32,7 @@ public class LevelUnlocker2 : MonoBehaviour
             levelTwo.interactable = true;
             levelThree.interactable = false;
             DialogueLevel2.SetActive(false);
+            Time.timeScale = 1f;
             Debug.Log("remove panel");
         }   
         else 
